@@ -7,9 +7,9 @@ import asyncio
 import json
 from datetime import datetime
 
-TOKEN = os.environ.get("DISCORD_BOT_TOKEN")
-PREFIX = "!"
-GUILD_ID = int(os.environ.get("GUILD_ID", 0))
+TOKEN = os.environ.get("MTUxMjc5MjE1Mzc3MDgxOTg0NQ.GbNhO6.UQ7W9QpXchAWlTyeF2Df9KUCrRoPC6MIo9Prt0")
+PREFIX = "."
+GUILD_ID = int(os.environ.get("1512792561914478652", 0))
 
 # Database setup
 db = sqlite3.connect("rat_data.db")
